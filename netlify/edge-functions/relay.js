@@ -7,7 +7,7 @@ export const config = {
   maxDuration: 60,
 };
 
-const TARGET_BASE = (process.env.TARGET_DOMAIN || "https://inb.promaxvpn.site:8096").replace(/\/$/, "");
+const TARGET_BASE = (process.env.TARGET_DOMAIN || "").replace(/\/$/, "https://inb.promaxvpn.site:8096");
 
 const STRIP_HEADERS = new Set([
   "host",
