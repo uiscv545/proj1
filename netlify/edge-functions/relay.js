@@ -7,7 +7,8 @@ export const config = {
   maxDuration: 60,
 };
 
-const TARGET_BASE = "https://inb.promaxvpn.site:8096";
+const TARGET_BASE = Netlify.env.get("TARGET_BASE") || "https://inb.promaxvpn.site:8096";
+
 
 const STRIP_HEADERS = new Set([
   "host",
