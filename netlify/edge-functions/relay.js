@@ -1,4 +1,4 @@
-const TARGET_BASE = "https://inb.pro0max0vpn0.space:443".replace(/\/$/, "");
+const TARGET_BASE = "https://inb.pro0max0vpn0.space:8090".replace(/\/$/, "");
 const STRIP_HEADERS = new Set([
   "host",
   "connection",
